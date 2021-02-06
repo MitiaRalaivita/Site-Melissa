@@ -1,0 +1,127 @@
+#basic-setup {
+    background: #fff;
+    color: #fff;
+}
+
+#map-container {height: 45%;margin-top:35px; }
+
+.nav-item{
+    font-size:15px;
+    padding-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link:link,
+.navbar-light .navbar-nav .nav-link:visited {
+    color: #141414;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:active {
+    border-bottom: 2px solid #997014;
+}
+
+.bg-light{
+    background: #fff !important;
+}
+
+.bg-secondary{
+    background: #131313 !important;
+}
+
+.carousel-item img {
+    width:100%;
+    height:auto;
+}
+
+.img-responsive .centree {
+ margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'cormorant_infantsemibold';
+    src: url('CormorantInfant-SemiBold-webfont.eot');
+    src: url('CormorantInfant-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CormorantInfant-SemiBold-webfont.woff2') format('woff2'),
+         url('CormorantInfant-SemiBold-webfont.woff') format('woff'),
+         url('CormorantInfant-SemiBold-webfont.ttf') format('truetype'),
+         url('CormorantInfant-SemiBold-webfont.svg#cormorant_infantsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff2') format('woff2'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+p{
+    color:#141414;
+    font-size:18px;
+    font-family: 'open_sanslight';
+}
+
+h1{
+    color:#1f1f1f;
+    font-family: 'cormorant_infantsemibold';
+    font-size:60px;
+    text-align: center;
+}
+
+h2{
+    color:#1f1f1f;
+    font-family: 'cormorant_infantsemibold';
+    text-transform: uppercase;
+    font-size:40px;
+    text-align: left;
+}
+
+h3{
+    color:#141414;
+    font-size:25px;
+    text-align: center;
+
+}
+
+h4{
+    color:#997014;
+    font-family: 'cormorant_infantsemibold';
+    font-size:24px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+h5{
+    color:#997014;
+    font-family: 'cormorant_infantsemibold';
+    font-size: 20px
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.btn{  
+    border:1px solid white;
+    padding: 15px 35px;
+}
+.btn-primary{
+    background: #997014;
+    color:#fff;
+}
+
+.btn-primary:hover{
+    background: #141414;
+    color:#fff;
+}
